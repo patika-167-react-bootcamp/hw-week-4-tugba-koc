@@ -1,0 +1,127 @@
+.App {
+  text-align: center;
+}
+
+/* LOGIN */
+
+h1.login--header {
+  font-size: 3em;
+  color: rgb(59, 59, 255);
+  font-weight: 100;
+}
+
+label {
+  font-weight: 600;
+  color: gray;
+  margin-top: 30px;
+}
+
+input {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 10px;
+  height: 36px;
+  border-radius: 5px;
+  border: 0.5px solid gray;
+  background-color: rgb(236, 236, 236);
+  padding-left: 12px;
+  text-align: center;
+}
+
+input:focus,
+input:active {
+  outline: none;
+}
+
+.route-links--main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+}
+
+.login--form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login--main,
+.direct-register--main {
+  width: 50vw;
+}
+
+.login--button {
+  background-color: rgb(80, 80, 255);
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  width: 20%;
+  margin: 40px auto 0;
+}
+
+/* direct-REGISTER */
+
+h1.direct-register--header {
+  font-size: 3em;
+  color: rgb(255, 255, 255);
+  font-weight: 100;
+}
+
+.direct-register--main {
+  width: 50vw;
+  height: 100%;
+  background-color: rgb(80, 80, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.direct-register--main-Inner {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.direct-register--button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(80, 80, 255);
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  width: 40%;
+  margin: 40px auto 0;
+}
+
+.direct-register--text-content {
+  color: rgb(255, 255, 255);
+  margin-top: 0;
+}
+
+/* REGISTER PAGE */
+
+.register--main {
+  margin: auto;
+  width: 50%;
+  height: 100vh;
+}
+
+.register--error {
+  color: white;
+  border: 1px solid red;
+  background-color: rgb(255, 128, 128);
+  padding: 4px;
+  width: 50%;
+  margin: auto;
+  border-radius: 5px;
+}
+
+h1.register--header {
+  font-size: 3em;
+  color: rgb(59, 59, 255);
+  font-weight: 100;
+  margin-bottom: 75px;
+}
+
